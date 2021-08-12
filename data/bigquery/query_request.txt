@@ -1,0 +1,33 @@
+
+/*
+SELECT
+  MAX(tournament),
+  count(points_scored) AS three_pts_success,
+  count(event_type) AS three_pts_attempt
+FROM
+  `bigquery-public-data.ncaa_basketball.mbb_pbp_sr`
+WHERE
+    player_full_name = 'Duncan Robinson' and three_point_shot = true and ((season = 2015) or (season = 2016) or (season = 2017))
+GROUP BY tournament
+*/
+
+/*
+SELECT
+  MAX(tournament),
+  count(points_scored) AS three_pts_success,
+  count(event_type) AS three_pts_attempt
+FROM
+  `bigquery-public-data.ncaa_basketball.mbb_pbp_sr`
+WHERE
+    team_alias = 'MICH' and three_point_shot = true and ((season = 2015) or (season = 2016) or (season = 2017))
+GROUP BY tournament
+*/
+SELECT
+  MAX(tournament),
+  count(points_scored) AS three_pts_success,
+  count(event_type) AS three_pts_attempt
+FROM
+  `bigquery-public-data.ncaa_basketball.mbb_pbp_sr`
+WHERE
+    three_point_shot = true and ((season = 2015) or (season = 2016) or (season = 2017))
+GROUP BY tournament
