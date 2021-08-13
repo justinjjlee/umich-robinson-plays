@@ -70,7 +70,7 @@ plt_3ptattempt = Gadfly.plot(x=df_plt_3ptatmt[:, 1], y=df_plt_3ptatmt[:, 2], Geo
                               Scale.y_continuous(labels = x -> labelsy[x]),
                               #Guide.xticks(ticks=nothing, label = false), Guide.yticks(ticks=nothing),
                               Theme(background_color = nothing))
-img = PNG(str_cd * "plt_3pt_attempt_robinson.png", 18cm, 16cm)
+img = PNG(str_cd * "plt_3pt_attempt_robinson.png", 18cm, 18cm)
 draw(img, plt_3ptattempt)
 
 # ===================================================================================================================
@@ -113,7 +113,7 @@ plt_3ptattempt = Gadfly.plot(x=df_plt_3ptyes[:, 1], y=df_plt_3ptyes[:, 2], Geom.
                       Scale.y_continuous(labels = x -> labelsy[x]),
                       #Guide.xticks(ticks=nothing, label = false), Guide.yticks(ticks=nothing),
                       Theme(background_color = nothing))
-img = PNG(str_cd * "plt_3pt_scores_all_fullcourt_ncaa.png", 29cm, 15cm)
+img = PNG(str_cd * "plt_3pt_scores_all_fullcourt_ncaa.png", 36cm, 18cm)
 draw(img, plt_3ptattempt)
 
 #Alternate option to be save with image
@@ -150,7 +150,7 @@ plt_3ptattempt = Gadfly.plot(x=df_plt_3ptatmt[:, 1], y=df_plt_3ptatmt[:, 2], Geo
                               Scale.y_continuous(labels = x -> labelsy[x]),
                               #Guide.xticks(ticks=nothing, label = false), Guide.yticks(ticks=nothing),
                               Theme(background_color = nothing))
-img = PNG(str_cd * "plt_3pt_attempt_all_ncaa.png", 18cm, 16cm)
+img = PNG(str_cd * "plt_3pt_attempt_all_ncaa.png", 18cm, 18cm)
 draw(img, plt_3ptattempt)
 
 
