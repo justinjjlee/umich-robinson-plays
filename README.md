@@ -1,15 +1,12 @@
 # Duncan Robinson's career as Michigan Wolverine
-Exploratory Data Analysis (EDA) of Duncan Robinson's playing career for the University of Michigan Wolverine Men's Basketball team. Specifically, the analysis observes three-point attempts and scores, observing 2015-16, 2016-17, and 2017-18 seasons. Michigan Wolverine during the period heavily depended its scoring on three-point field goals; the concerted dependencies in important and challenged games turned *verschlimmbessern* while providng the team an overall successful seasons. Of the shooters, [Duncan Robinson](https://mgoblue.com/sports/mens-basketball/roster/duncan-robinson/15226) became one of the most efficient three-point shooter in NBA as an undrafted rookie with [Miami Heat](https://www.nba.com/heat/news/heat-resigns-duncan-robinson). The exercises below evaluate his three-point shooting performance at Michigan.
+Exploratory Data Analysis (EDA) of Duncan Robinson's playing career for the University of Michigan Wolverine Men's Basketball team. Specifically, the analysis observes three-point attempts and scores, observing 2015-16, 2016-17, and 2017-18 seasons. Michigan Wolverine during the period heavily depended its scoring on three-point field goals; the concerted dependencies in important and challenged games turned *verschlimmbessern*. While not able to win the tournament (March Madness/Final Four), the team is recorded to have their overall successful seasons. Among their shooters, [Duncan Robinson](https://mgoblue.com/sports/mens-basketball/roster/duncan-robinson/15226) became one of the most efficient three-point shooter in NBA as an undrafted rookie with [Miami Heat](https://www.nba.com/heat/news/heat-resigns-duncan-robinson). The exercises below evaluate his three-point shooting performance at Michigan then later in NBA.
 
 ## NCAA basketball data
-NCAA Basketball's play-by-play data during Duncan Robinson's career at University of Michigan is pulled from NCAA's historical play-by-play statistics from Google's [BigQuery](https://console.cloud.google.com/marketplace/details/ncaa-bb-public/ncaa-basketball?pli=1). All reference statistics used here comes from the same dataset.
+NCAA Basketball's play-by-play data during Duncan Robinson's career at University of Michigan is pulled from NCAA's historical play-by-play statistics from Google's [BigQuery](https://console.cloud.google.com/marketplace/details/ncaa-bb-public/ncaa-basketball?pli=1). All reference statistics used here comes from the dataset.
 
 ## Statistics Three-point field goals: 2015 to 2018 seasons
- - [x] Duncan Robinson's statistics
- - [x] University of Michigan statistics
- - [x] NCAA average statistics
 
-Duncan Robinson - University of Michigan Wolverine
+#### Duncan Robinson - University of Michigan Wolverine
 
 | Games | Three-point scores | Three-point attempts | Percent |
 | --- | :---: | :---: | :---: |
@@ -17,7 +14,7 @@ Duncan Robinson - University of Michigan Wolverine
 | Conference - tournament | 18 | 53 | 34.0% |
 | March Madness | 18 | 55 | 32.7% |
 
-University of Michigan Wolverine
+#### University of Michigan Wolverine
 
 | Games | Three-point scores | Three-point attempts | Percent |
 | --- | :---: | :---: | :---: |
@@ -25,7 +22,7 @@ University of Michigan Wolverine
 | Conference - tournament | 88 | 334 | 26.3% |
 | March Madness | 90 | 352 | 25.6% |
 
-NCAA Average
+#### NCAA Average
 
 | Games | Three-point scores | Three-point attempts | Percent |
 | --- | :---: | :---: | :---: |
